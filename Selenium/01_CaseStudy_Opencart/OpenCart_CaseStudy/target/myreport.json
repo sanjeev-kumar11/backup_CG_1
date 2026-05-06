@@ -1,0 +1,1218 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-21T06:56:34.461Z",
+        "line": 4,
+        "name": "possitive regaration scenario",
+        "description": "",
+        "id": "registration-feature;possitive-regaration-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1995000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters details",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_enters_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "sanjeev"
+                ]
+              },
+              {
+                "cells": [
+                  "Last_Name",
+                  "kumar"
+                ]
+              },
+              {
+                "cells": [
+                  "E-Mail",
+                  "sanjiv.kumar1@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Telephone",
+                  "8989898998"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass",
+                  "Sanjiv123"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass_con",
+                  "Sanjiv123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "confirm Privacy Policy Field",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.confirm_privacy_policy_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user clicks on submint button",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_clicks_on_submint_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user is successfully registered",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_successfully_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T06:56:34.548Z",
+        "line": 21,
+        "name": "possitive registion scenario",
+        "description": "",
+        "id": "registration-feature;possitive-registion-scenario",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user enter details",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_enter_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "raju"
+                ]
+              },
+              {
+                "cells": [
+                  "Last_Name",
+                  "raj"
+                ]
+              },
+              {
+                "cells": [
+                  "E_Mail",
+                  "raju.raj@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Telephone",
+                  "8989898912"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass",
+                  "Sanjiv123"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass_con",
+                  "Sanjiv123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user select Newsletter option",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_select_newsletter_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "confirm Privacy Policy Field",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.confirm_privacy_policy_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user clicks on submint button",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_clicks_on_submint_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user is successfully registered",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_successfully_registered()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          },
+          {
+            "name": "@Sucessfull_Registration_02"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T06:56:34.557Z",
+        "line": 40,
+        "name": "do not provide any fields in the Register Account page",
+        "description": "",
+        "id": "registration-feature;do-not-provide-any-fields-in-the-register-account-page",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "user clicks on continue button",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "page displayed with warning message",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.page_displayed_with_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          },
+          {
+            "name": "@Invalid_Registration_03"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T06:56:34.566Z",
+        "line": 48,
+        "name": "password not matched scenario",
+        "description": "",
+        "id": "registration-feature;password-not-matched-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "user enter details with unmatched password",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_enter_details_with_unmatched_password(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "sanjeev"
+                ]
+              },
+              {
+                "cells": [
+                  "Last_Name",
+                  "kumar"
+                ]
+              },
+              {
+                "cells": [
+                  "E-Mail",
+                  "sanjiv.kumar1@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Telephone",
+                  "8989898998"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass",
+                  "Sanjiv1234"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass_con",
+                  "Sanjiv123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "confirm Privacy Policy Field",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.confirm_privacy_policy_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "user clicks on continue button",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "page displayed with warning message",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.page_displayed_with_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          },
+          {
+            "name": "@Password_Not_Matched_04"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T06:56:34.571Z",
+        "line": 64,
+        "name": "invalid_e-mailId_scenario",
+        "description": "",
+        "id": "registration-feature;invalid-e-mailid-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 996900,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user enter details with wrong email",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_enter_details_with_wrong_email(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "sanjeev"
+                ]
+              },
+              {
+                "cells": [
+                  "Last_Name",
+                  "kumar"
+                ]
+              },
+              {
+                "cells": [
+                  "E-Mail",
+                  "sanjiv.kumar1@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Telephone",
+                  "8989898998"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass",
+                  "Sanjiv1234"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass_con",
+                  "Sanjiv123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "confirm Privacy Policy Field",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.confirm_privacy_policy_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "user clicks on continue button",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "page displayed with warning message",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.page_displayed_with_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          },
+          {
+            "name": "@invalid_email_address_05"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T06:56:34.578Z",
+        "line": 81,
+        "name": "invalid phone no scenario",
+        "description": "",
+        "id": "registration-feature;invalid-phone-no-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "user enter details with invalid telephone number",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_enter_details_with_invalid_telephone_number(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "sanjeev"
+                ]
+              },
+              {
+                "cells": [
+                  "Last_Name",
+                  "kumar"
+                ]
+              },
+              {
+                "cells": [
+                  "E-Mail",
+                  "sanjiv.kumar1@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Telephone",
+                  "8989898998"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass",
+                  "Sanjiv1234"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass_con",
+                  "Sanjiv123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 92,
+            "name": "confirm Privacy Policy Field",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.confirm_privacy_policy_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "user clicks on continue button",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 94,
+            "name": "page displayed with warning message",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.page_displayed_with_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          },
+          {
+            "name": "@invalid_phone_number_06"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T06:56:34.584Z",
+        "line": 99,
+        "name": "without selecting the PrivacyPolicy checkbox option",
+        "description": "",
+        "id": "registration-feature;without-selecting-the-privacypolicy-checkbox-option",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 100,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 102,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "user enters details",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_enters_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "sanjeev"
+                ]
+              },
+              {
+                "cells": [
+                  "Last_Name",
+                  "kumar"
+                ]
+              },
+              {
+                "cells": [
+                  "E-Mail",
+                  "sanjiv.kumar1@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Telephone",
+                  "8989898998"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass",
+                  "Sanjiv1234"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass_con",
+                  "Sanjiv123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 110,
+            "name": "user clicks on continue button",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "page displayed with warning message",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.page_displayed_with_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          },
+          {
+            "name": "@Invalid_Registration_07"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T06:56:34.589Z",
+        "line": 114,
+        "name": "by providing the existing account details (existing email Id)",
+        "description": "",
+        "id": "registration-feature;by-providing-the-existing-account-details-(existing-email-id)",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 116,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 118,
+            "name": "user enters details",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_enters_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "sanjeev"
+                ]
+              },
+              {
+                "cells": [
+                  "Last_Name",
+                  "kumar"
+                ]
+              },
+              {
+                "cells": [
+                  "E-Mail",
+                  "sanjiv.kumar1@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Telephone",
+                  "8989898998"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass",
+                  "Sanjiv1234"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass_con",
+                  "Sanjiv123"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 997700,
+              "status": "passed"
+            },
+            "line": 125,
+            "name": "confirm Privacy Policy Field",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.confirm_privacy_policy_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 126,
+            "name": "user clicks on continue button",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 127,
+            "name": "page displayed with warning message",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.page_displayed_with_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          },
+          {
+            "name": "@Invalid_Registration_08"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T06:56:34.595Z",
+        "line": 132,
+        "name": "filling Password field and not filling Password Confirm field",
+        "description": "",
+        "id": "registration-feature;filling-password-field-and-not-filling-password-confirm-field",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 133,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 134,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 135,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 998200,
+              "status": "passed"
+            },
+            "line": 136,
+            "name": "user will not enter confirm password detail",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_will_not_enter_confirm_password_detail(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "First_Name",
+                  "sanjeev"
+                ]
+              },
+              {
+                "cells": [
+                  "Last_Name",
+                  "kumar"
+                ]
+              },
+              {
+                "cells": [
+                  "E-Mail",
+                  "sanjiv.kumar1@gmail.com"
+                ]
+              },
+              {
+                "cells": [
+                  "Telephone",
+                  "8989898998"
+                ]
+              },
+              {
+                "cells": [
+                  "Pass",
+                  "Sanjiv1234"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 142,
+            "name": "confirm Privacy Policy Field",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.confirm_privacy_policy_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 143,
+            "name": "user clicks on continue button",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_clicks_on_continue_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 144,
+            "name": "page displayed with warning message",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.page_displayed_with_warning_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          },
+          {
+            "name": "@Invalid_Registration_09"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-21T06:56:34.599Z",
+        "line": 148,
+        "name": "the UI of the Register Account page",
+        "description": "",
+        "id": "registration-feature;the-ui-of-the-register-account-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 149,
+            "name": "user is on homepage",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 150,
+            "name": "user click register in My Account Drop menu",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_click_register_in_my_account_drop_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 151,
+            "name": "user is on registration page",
+            "match": {
+              "location": "com.opencart.stepdef.RegisterStepDef.user_is_on_registration_page()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sucessfull_Registration_01"
+          },
+          {
+            "name": "@UI_RegistratioPage_10"
+          }
+        ]
+      }
+    ],
+    "name": "Registration feature",
+    "description": "",
+    "id": "registration-feature",
+    "keyword": "Feature",
+    "uri": "file:features/Register.feature",
+    "tags": [
+      {
+        "name": "@Sucessfull_Registration_01",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

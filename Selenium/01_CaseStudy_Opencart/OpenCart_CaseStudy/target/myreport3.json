@@ -1,0 +1,77 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-21T17:51:51.007Z",
+        "line": 28,
+        "name": "adding the product to Cart from the Products displayed in the Featured in homepage",
+        "description": "",
+        "id": "addind-product-to-cart;adding-the-product-to-cart-from-the-products-displayed-in-the-featured-in-homepage",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5847873900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user is on Homepage",
+            "match": {
+              "location": "com.opencart.stepdef.AddToCartStepDef.user_is_on_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101760600,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user go to feature section and click add to cart",
+            "match": {
+              "location": "com.opencart.stepdef.AddToCartStepDef.user_go_to_feature_section_and_click_add_to_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1536326900,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "click on the shopping cart to show your product in cart",
+            "match": {
+              "location": "com.opencart.stepdef.AddToCartStepDef.click_on_the_shopping_cart_to_show_your_product_in_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddToCart"
+          },
+          {
+            "name": "@Successful_Adding_03"
+          }
+        ]
+      }
+    ],
+    "name": "Addind product to cart",
+    "description": "",
+    "id": "addind-product-to-cart",
+    "keyword": "Feature",
+    "uri": "file:features/AddToCart.feature",
+    "tags": [
+      {
+        "name": "@AddToCart",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

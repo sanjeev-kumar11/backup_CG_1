@@ -1,0 +1,112 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-21T12:56:41.954Z",
+        "line": 75,
+        "name": "Positive login scenario and use of browser back",
+        "description": "",
+        "id": "login-feature;positive-login-scenario-and-use-of-browser-back;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8077233700,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "user is on login page",
+            "match": {
+              "location": "com.opencart.stepdef.LoginPageStepDef.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 275789800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user enters \"sanjiv.kumara75@gmail.com\" and \"Sanjiv123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sanjiv.kumara75@gmail.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Sanjiv123\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.opencart.stepdef.LoginPageStepDef.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2563611600,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "user click on submit",
+            "match": {
+              "location": "com.opencart.stepdef.LoginPageStepDef.user_click_on_submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 773112000,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "Account is logged in",
+            "match": {
+              "location": "com.opencart.stepdef.LoginPageStepDef.account_is_logged_in()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchSessionException: invalid session id\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LIN51008843\u0027, ip: \u0027192.168.29.162\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002716.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\\Users\\KUSANJEE\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:51264}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 4f178517fe68e5e9551b5f5e7690cd63\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)\r\n\tat com.opencart.stepdef.LoginPageStepDef.browser_back_to_previous_page(LoginPageStepDef.java:67)\r\n\tat ✽.Browser back to previous page(file:///C:/Users/KUSANJEE/selenium/OpenCart_CaseStudy/features/Login.feature:72)\r\n",
+              "duration": 149128000,
+              "status": "failed"
+            },
+            "line": 72,
+            "name": "Browser back to previous page",
+            "match": {
+              "location": "com.opencart.stepdef.LoginPageStepDef.browser_back_to_previous_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Login"
+          },
+          {
+            "name": "@Positive_Login_07"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:features/Login.feature",
+    "tags": [
+      {
+        "name": "@Login",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
